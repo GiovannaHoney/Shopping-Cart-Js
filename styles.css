@@ -203,6 +203,11 @@ Grocery List
   flex: 1 0 auto;
   color: black;
 }
+@media screen and (max-width: 600px) {
+  #grocery {
+    width: 50vw;
+  }
+}
 #grocery::placeholder {
   font-family: var(--ff-secondary);
   color: black;
